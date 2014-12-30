@@ -1,7 +1,7 @@
 library(RGoogleAnalytics)
 
 save.token <- function() {
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	save(token,file="./token_file")
 }
 
@@ -9,16 +9,16 @@ load.token <- function() {
 	return(load("token_file"))
 }
 get.token <- function() {
-	return(Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U"))
+	return(Auth())
 }
 
 get.profiles <- function(){
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	return(GetProfiles(token))
 }
 
 sources<- function(start.date, end.date, id){
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	query.list <- Init(
 	start.date = start.date,
 	end.date = end.date,
@@ -33,7 +33,7 @@ sources<- function(start.date, end.date, id){
 }
 
 pageviews <- function(start.date, end.date, id){
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	query.list <- Init(
 	start.date = start.date,
 	end.date = end.date,
@@ -47,7 +47,7 @@ pageviews <- function(start.date, end.date, id){
 	return(ga.df)
 }
 mobile <- function(start.date, end.date, id){
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	query.list <- Init(
 	start.date = start.date,
 	end.date = end.date,
@@ -86,7 +86,7 @@ device.info <- function(start.date, end.date, id) {
 }
 
 device.category <- function(start.date, end.date, id){
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	query.list <- Init(
 	start.date = start.date,
 	end.date = end.date,
@@ -103,7 +103,7 @@ device.category <- function(start.date, end.date, id){
 vect <<- NULL
 
 viewsvsmobile <- function(start.date, end.date, id){
-	token <- Auth("635724585936-c491melt43ktgdpsb9md09011q6ugih1.apps.googleusercontent.com", "ujtf4LufJvK-bK7yMeSbBP0U")
+	token <- Auth()
 	#query info from google analytics using date as the dimesion
 	query.date <- Init(
 		start.date = start.date,
