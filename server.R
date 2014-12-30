@@ -2,7 +2,7 @@ library(shiny)
 library(plyr)
 library(ggplot2)
 library(RGoogleAnalytics)
-source("analytics_test.r")
+source("analytics.r")
 load.token()
 get.profiles()
 
