@@ -1,0 +1,250 @@
+?":"
+?':'
+?`:`
+seg(1,20)
+seq(1,20)
+seq(1, 10, by=0.5)
+seq(0, 10, by=0.5)
+seq(0, 10, length=30)
+seq(5, 10, length=30)
+my_seq <- seq(5, 10, length=30)
+length(my_seq)
+1:length(my_seq)
+seq(along = my_seq)
+seq_along(my_seq)
+rep(0, times = 40)
+rep(c(0, 1, 2), times = 10)
+rep(c(0, 1, 2), each = 10)
+num_vect <- c(0.5, 55, -10, 6)
+tf <- num_vect < 1
+tf
+num_vect >= 6
+my_char <- c("My", "name", "is")
+my_char
+paste(my_char, collapse = " ")
+my_name <- c(my_char, "Keon Cummings")
+my_name
+paste(my_name, collapse = " ")
+paste("Hello", "World!", sep = " ")
+info()
+paste("Hello", "world!", sep = " ")
+paste(1:3, c("X", "Y", "Z"), sep = " ")
+paste(1:3, c("X", "Y", "Z"), sep ="")
+paste(LETTERS, 1:4, sep = "-")
+x <- c(44, NA, 5, NA)
+x * 3
+y <- rnorm(1000)
+z <- rep(NA, 1000)
+myData <- smple(c(y,z), 100)
+myData <- sample(c(y,z), 100)
+mNA <- is.na(myData)
+myNA <- is.na(myData)
+myNA
+myData == is.na(myData)
+myData == NA
+sum(myNA)
+myData
+0/0
+Inf - Inf
+x
+x[1:10]
+c[is.na(x)]
+x[is.na(x)]
+x[!is.na(x)]
+y <- x[!is.na(x)]
+y
+y[y > 0]
+x[x > 0]
+x[!is.na(x) & x > 0]
+c(x[3, 5, 7])
+c(x[3:5:7])
+c(3, 5, 7)
+x[c(3,5,7)]
+x[0]
+x[300]
+x[3000]
+c[c(-2, -10)]
+x[c(-2, -10)]
+x[-c(2,10)]
+vect <- c(foo = 11, bar = 2, norf = NA)
+vect
+names(vect)
+vect2 <- c(11, 2, NA)
+names(vect2) <- c("foo", "bar", "norf")
+identical(vect, vect2)
+vect["bar"]
+vect[c("foo", "bar")]
+myVector <- c(1:20)
+myVector<- c(1:20)
+myVector <-c(1:20)
+nfo()
+info()
+myVector <- 1:20
+myVector
+dim(myVector)
+length(myVector)
+dim(myVector <- c(4, 5)
+4
+dim(myVector) <- c(4, 5)
+dim(myVector)
+attributes(myVector)
+myVector
+class(myVector)
+myMatrix <- myVector
+?matrix()
+?matrix
+myMatrix2 <- matrix(data = 1:20, nrow = 4 ncol = 5, FALSE,)
+myMatrix2 <- matrix(, nrow = 4 ncol = 5, FALSE,)
+myMatrix2 <- matrix(data = 1:20, nrow = 4 ncol = 5, FALSE, null)
+myMatrix2 <- matrix(1:20, nrow = 4 ncol = 5, FALSE, )
+myMatrix2 <- matrix(1:20, nrow = 4 ncol = 5, FALSE,null )
+myMatrix2 <- matrix(1:20, nrow = 4 ncol = 5, FALSE, null )
+myMatrix2 <- matrix(1:20, 4, 5, FALSE, null )
+myMatrix2 <- matrix(1:20, 4, 5, FALSE, )
+indentical(myMatric, myMatyrix2)
+identical(myMatrix, myMatyrix2)
+identical(myMatrix, myMatrix2)
+patients <- c("Bill", "Gina", "Kelly")
+patients <- c("Bill", "Gina", "Kelly", "Sean")
+cbind(patients, myMatrix)
+myData <- data.frame(patients, myMatrix)
+myData
+class(myData)
+cnames <- c("patient", "age", "weight", "bp", "rating", "test")
+colnames(cnames, myData)
+myData <- colnames(cnames)
+colnames(myData) <- cnames
+myData
+x <- 4
+class(x)
+x <- c(1, 3,5)
+y <- c(3, 2, 10)
+rbind(x,y)
+x <- list(2, "a", "b", TRUE)
+[[1]]
+x[[1]]
+x
+x <- 1:4
+y <- 2
+x + y
+y
+x
+x <- c(3, 5, 1, 10, 12, 6)
+x[x > 6] <- 0
+x
+swirl()
+library()
+library("swirl")
+swirl()
+x
+info
+exit
+help
+info()
+bye()
+swirl()
+x <- c(44, NA, 5, NA)
+c * 3
+x * 3
+y <- rnorm(1000)
+z <- rep(NA, 1000)
+myData <- sample(c(y, z), 100)
+myNA <- in.na(myData)
+myNA <- is.na(myData)
+myNa
+myNA
+myData == NA
+sum(myNA)
+myData
+0/0
+Inf - Inf
+bye()
+swirl()
+x
+x[1:10]
+x[is.na(x)]
+y <- s[!is.na(x)]
+y <- x[!is.na(x)]
+y
+y[y > 0]
+x[x > 0]
+x[!is.na(x) & x > 0]
+x[c(3, 5, 7)]
+a
+a <- available.packages()
+a
+install.packages("slidify")
+library(slidify)
+r.v
+r -v
+install.packages("KernSmooth")
+library(KernSmooth)
+swirl()
+library(swirl)
+swirl()
+siwrl(data_analysis)
+swirl(data_analysis)
+install_from_swirl("Data_Analysis")
+swirl()
+exit
+swirl(instructions)
+instructions
+help
+q
+quit
+exit
+swirl()
+myVector <- 1:20
+myVector
+dium(myVector)
+dim(myVector)
+length(myVector)
+dim(myVector) <- c(4,5)
+dim(myVectory)
+dim(myVector)
+attributes(myVector)
+myVector
+class(myVector)
+myVector <- myMatrix
+myMatrix <- myVector
+?matrix
+matrix(1:20, nrow = 4, ncol = 5)
+myMatrix_2 <- matrix(1:20, nrow = 4, ncol = 5)
+myMatrix2 <- matrix(1:20, nrow = 4, ncol = 5)
+identical(myMatrix, myMatrix2)
+patients <- c("bill", "Gina", "Kelly", "Sean")
+patients <- c("Bill", "Gina", "Kelly", "Sean")
+cbind(patients, myMatrix)
+myData <- data.frame(patients, myMatrix)
+myData
+class(myData)
+cnames <- c("patient", "aga", "weight", "bp", "rating", "test")
+cnames <- c("patient", "age", "weight", "bp", "rating", "test")
+myData <- colname(cnames)
+myData <- colnames(cnames)
+colnames(myData) <- cnames
+myData
+library(devtools)
+get.profiles()
+source('analytics_test.r')
+get.profiles()
+library('shiny')
+runApp()
+devtools::install_github('rstudio/rscrypt')
+getwd()
+getwd()
+addAuthorizedUser("Imagination")
+library(shiny)
+addAuthorizedUser("Imagination")
+library(shinyapps)
+library(shinyapp)
+library(shinyapps)
+library('shinyapps')
+('shinyapps'get.packages
+get.packages('shinyapps')
+load.packages('shinyapps')
+.packages('shinyapps')
+packages('shinyapps')
+install.packages('shinyapps')
+install.packages('installr')
+install.packages('r')
